@@ -17,24 +17,24 @@
 // console.log(83 % 2);
 // console.log(145 % 2);
 
-// function isEven(number) {
-//     const remainder = number % 2;
-//     console.log(remainder);
-// }
-// isEven(48);
-// isEven(49);
+function isEven(number) {
+    const remainder = number % 2;
+    console.log(remainder);
+}
+isEven(48);
+isEven(49);
 
-// function isEven(number) {
-//     const remainder = number % 2;
-//     if (remainder === 0) {
-//         console.log('number is even');
-//     }
-//     else {
-//         console.log('number is odd');
-//     }
-// }
-// isEven(48);
-// isEven(49);
+function isEven(number) {
+    const remainder = number % 2;
+    if (remainder === 0) {
+        console.log('number is even');
+    }
+    else {
+        console.log('number is odd');
+    }
+}
+isEven(48);
+isEven(49);
 
 function isEven(number) {
     const remainder = number % 2;
